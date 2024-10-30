@@ -1,0 +1,50 @@
+/*admin style*/
+.form-table td{
+	padding: 0 0 5px 0;
+}
+.column-sts_rating .sts-ticket .smillies{float: none;}
+
+.clr {clear: both;}
+
+/*front user*/
+.sts-ticket .stats span.value{font-weight: bold;}
+.sts-ticket .stats span.value .status_closed{color: red;}
+.sts-ticket .subject-wrapper{
+	margin: 20px 0; 
+	padding:14px 0px 14px 8px;
+	border:1px solid #ccc;
+	border-width: 1px 0;
+	background-color:#f8f8f8;
+}
+.sts-ticket .replies-title{margin: 35px 0px 10px}
+.sts-ticket #the-ticket{background: #f9f9f9}
+.sts-ticket .a-comment {
+	border: 1px solid #d4d4d4;
+    border-radius: 4px;
+    padding: 5px 10px
+}
+.sts-ticket .please-rate {margin-bottom: -14px;text-align: right;font-weight: bold;}
+.sts-ticket .a-comment {margin: 14px 0}
+.sts-ticket .a-comment .top-bar .author-name {color: grey; margin-bottom: 5px;float: left;font-weight: bold;}
+.sts-ticket .top-bar .author-name span.date {font-style: italic;font-weight: normal;}
+.sts-ticket .smillies {float:right;font-weight: bold}
+.sts-ticket .smillies a {display: inline-block;height: 24px;width: 30px;}
+.sts-ticket .smillies a.greenSmiley {background: url("[%plugin_url]/images/smiley_green_default.png") no-repeat}
+.sts-ticket .smillies a.greenSmiley:hover,
+.sts-ticket .smillies a.greenSmiley.selected
+ {background: url("[%plugin_url]/images/smiley_green_active.png") no-repeat}
+.sts-ticket .smillies a.orangeSmiley {background: url("[%plugin_url]/images/smiley_orange_default.png") no-repeat}
+.sts-ticket .smillies a.orangeSmiley:hover,
+.sts-ticket .smillies a.orangeSmiley.selected
+ {background: url("[%plugin_url]/images/smiley_orange_active.png") no-repeat}
+.sts-ticket .smillies a.redSmiley {background: url("[%plugin_url]/images/smiley_red_default.png") no-repeat}
+.sts-ticket .smillies a.redSmiley:hover,
+.sts-ticket .smillies a.redSmiley.selected
+ {background: url("[%plugin_url]/images/smiley_red_active.png") no-repeat}
+.sts-ticket .a-comment .attachment {margin: 24px}
+.sts-ticket .a-comment .attachment hr {margin: 0px}
+
+form#ticket_form #file_attachment_wrapper {display: none}
+form#ticket_form #file_attachment_wrapper p{font-size:90%;}
+
+form#ticket_form label{display: block;}
